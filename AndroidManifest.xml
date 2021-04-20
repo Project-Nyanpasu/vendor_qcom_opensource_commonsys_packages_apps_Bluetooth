@@ -237,30 +237,30 @@
         <activity android:name="com.android.bluetooth.opp.BluetoothOppBtEnableActivity"
                   android:process="@string/process"
                   android:excludeFromRecents="true"
-                  android:theme="@android:style/Theme.Material.Light.Dialog.Alert"
+                  android:theme="@style/dialog"
                   android:enabled="false">
         </activity>
         <activity android:name="com.android.bluetooth.opp.BluetoothOppBtErrorActivity"
                   android:process="@string/process"
                   android:excludeFromRecents="true"
-                  android:theme="@android:style/Theme.Material.Light.Dialog.Alert">
+                  android:theme="@style/dialog">
         </activity>
         <activity android:name="com.android.bluetooth.opp.BluetoothOppBtEnablingActivity"
                   android:process="@string/process"
                   android:excludeFromRecents="true"
-                  android:theme="@android:style/Theme.Material.Light.Dialog.Alert"
+                  android:theme="@style/dialog"
                   android:enabled="false">
         </activity>
         <activity android:name="com.android.bluetooth.opp.BluetoothOppIncomingFileConfirmActivity"
                   android:process="@string/process"
                   android:excludeFromRecents="true"
-                  android:theme="@android:style/Theme.Material.Light.Dialog.Alert"
+                  android:theme="@style/dialog"
                   android:enabled="false">
         </activity>
         <activity android:name="com.android.bluetooth.opp.BluetoothOppTransferActivity"
                   android:process="@string/process"
                   android:excludeFromRecents="true"
-                  android:theme="@android:style/Theme.Material.Light.Dialog.Alert"
+                  android:theme="@style/dialog"
                   android:enabled="false">
         </activity>
         <activity android:name="com.android.bluetooth.opp.BluetoothOppTransferHistory"
@@ -280,7 +280,7 @@
             android:exported="true"
             android:process="@string/process"
             android:excludeFromRecents="true"
-            android:theme="@android:style/Theme.Material.Light.Dialog.Alert"
+            android:theme="@style/dialog"
             android:enabled="false">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
