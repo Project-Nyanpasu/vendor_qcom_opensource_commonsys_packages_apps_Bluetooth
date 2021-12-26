@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+      Copyright (C) 2022 Project Kaleidoscope
+                    2022 The Project Nyanpasu
+
+      SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <dimen name="bt_transfer_list_item_padding_vertical">12dp</dimen>
+    <dimen name="bt_transfer_list_item_padding_horizontal">24dp</dimen>
+    <dimen name="bt_transfer_list_icon_size">36dp</dimen>
+    <dimen name="bt_transfer_title_text_size">16sp</dimen>
+    <dimen name="bt_transfer_target_device_text_size">12sp</dimen>
+    <dimen name="bt_transfer_complete_date_text_size">12sp</dimen>
+    <dimen name="bt_transfer_complete_text_text_size">12sp</dimen>
+</resources>

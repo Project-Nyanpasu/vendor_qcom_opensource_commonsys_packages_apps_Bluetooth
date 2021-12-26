@@ -76,6 +76,8 @@ android_app {
         "modules-utils-bytesmatcher",
         "modules-utils-handlerexecutor",
         "modules-utils-synchronous-result-receiver",
+        "SettingsLibCollapsingToolbarBaseActivity",
+        "SettingsLibSettingsTheme",
     ],
 
     plugins: [
