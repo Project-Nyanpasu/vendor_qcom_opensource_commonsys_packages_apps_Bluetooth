@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+      Copyright (C) 2022 Project Kaleidoscope
+                    2022 The Project Nyanpasu
+
+      SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="bt_transfer_failed_reason">Failed reason</string>
+    <string name="bt_transfer_file_name">File name</string>
+    <string name="bt_transfer_file_size">File size</string>
+    <string name="bt_transfer_file_type">File type</string>
+    <string name="bt_transfer_receive_from">Receive from</string>
+    <string name="bt_transfer_send_to">Send to</string>
+    <string name="bt_transfer_space_needed">Space needed</string>
+</resources>

@@ -272,7 +272,7 @@
                   android:excludeFromRecents="true"
                   android:configChanges="orientation|keyboardHidden"
                   android:enabled="false"
-                  android:theme="@android:style/Theme.DeviceDefault.Settings">
+                  android:theme="@style/Theme.Bluetooth.Opp.TransferHistory">
             <intent-filter>
                 <action android:name="com.android.bluetooth.action.TransferHistory" />
                 <category android:name="android.intent.category.DEFAULT" />
