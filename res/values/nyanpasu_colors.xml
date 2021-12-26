@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+      Copyright (C) 2022 Project Kaleidoscope
+                    2022 The Project Nyanpasu
+
+      SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <color name="bt_transfer_title_text_color">#FF000000</color>
+</resources>

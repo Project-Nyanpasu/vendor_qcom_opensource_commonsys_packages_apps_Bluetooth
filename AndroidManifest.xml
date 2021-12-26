@@ -239,30 +239,30 @@
         <activity android:name="com.android.bluetooth.opp.BluetoothOppBtEnableActivity"
                   android:process="@string/process"
                   android:excludeFromRecents="true"
-                  android:theme="@android:style/Theme.Material.Light.Dialog.Alert"
+                  android:theme="@aandroid:Theme.DeviceDefault.Light.Dialog.Alert"
                   android:enabled="false">
         </activity>
         <activity android:name="com.android.bluetooth.opp.BluetoothOppBtErrorActivity"
                   android:process="@string/process"
                   android:excludeFromRecents="true"
-                  android:theme="@android:style/Theme.Material.Light.Dialog.Alert">
+                  android:theme="@aandroid:Theme.DeviceDefault.Light.Dialog.Alert">
         </activity>
         <activity android:name="com.android.bluetooth.opp.BluetoothOppBtEnablingActivity"
                   android:process="@string/process"
                   android:excludeFromRecents="true"
-                  android:theme="@android:style/Theme.Material.Light.Dialog.Alert"
+                  android:theme="@aandroid:Theme.DeviceDefault.Light.Dialog.Alert"
                   android:enabled="false">
         </activity>
         <activity android:name="com.android.bluetooth.opp.BluetoothOppIncomingFileConfirmActivity"
                   android:process="@string/process"
                   android:excludeFromRecents="true"
-                  android:theme="@android:style/Theme.Material.Light.Dialog.Alert"
+                  android:theme="@aandroid:Theme.DeviceDefault.Light.Dialog.Alert"
                   android:enabled="false">
         </activity>
         <activity android:name="com.android.bluetooth.opp.BluetoothOppTransferActivity"
                   android:process="@string/process"
                   android:excludeFromRecents="true"
-                  android:theme="@android:style/Theme.Material.Light.Dialog.Alert"
+                  android:theme="@aandroid:Theme.DeviceDefault.Light.Dialog.Alert"
                   android:enabled="false">
         </activity>
         <activity android:name="com.android.bluetooth.opp.BluetoothOppTransferHistory"
@@ -272,7 +272,7 @@
                   android:excludeFromRecents="true"
                   android:configChanges="orientation|keyboardHidden"
                   android:enabled="false"
-                  android:theme="@android:style/Theme.DeviceDefault.Settings">
+                  android:theme="@style/Theme.Bluetooth.Opp.TransferHistory">
             <intent-filter>
                 <action android:name="com.android.bluetooth.action.TransferHistory" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -282,7 +282,7 @@
             android:exported="true"
             android:process="@string/process"
             android:excludeFromRecents="true"
-            android:theme="@android:style/Theme.Material.Light.Dialog.Alert"
+            android:theme="@aandroid:Theme.DeviceDefault.Light.Dialog.Alert"
             android:enabled="false">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
