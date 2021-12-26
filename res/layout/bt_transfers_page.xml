@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2014 The Android Open Source Project
+<!-- Copyright (C) 2022 Project Kaleidoscope
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,8 +14,20 @@
      limitations under the License.
 -->
 
-<resources>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <style name="dialog" parent="android:Theme.DeviceDefault.Dialog.Alert" />
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:overScrollMode="always" />
 
-</resources>
+    <ViewStub
+        android:id="@+id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/no_transfers" />
+
+</merge>
