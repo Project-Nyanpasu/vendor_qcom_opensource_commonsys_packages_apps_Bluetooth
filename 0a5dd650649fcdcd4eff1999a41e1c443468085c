@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "738e8f67_6e4ba2c9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-10-22T03:20:00Z",
+      "side": 1,
+      "message": "dialog doesn\u0027t effective",
+      "revId": "0a5dd650649fcdcd4eff1999a41e1c443468085c",
+      "serverId": "9b91ad12-a78f-4df3-ace5-25377b0d61e3"
+    }
+  ]
+}
